@@ -1,0 +1,134 @@
+body{
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(255, 112, 107);
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container1{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 20rem;
+  margin-top: 7%;
+  gap: 1rem;
+}
+.content1{
+  color: white;
+  align-self: center;
+}
+ .f-s{
+   font-size: 0.9rem;
+ }
+ .content2{
+   height: 100%;
+ text-align: center;
+ }
+ button{
+   color: white;
+   border: none;
+ }
+ .btn-1{
+   width:20rem;
+   height: 2.5rem;
+   text-align: center;
+   background-color: purple;
+   box-shadow: 0px 2px 3px 1px rgba(2, 2, 2, 0.3);
+ }
+ form{
+   width: 20rem;
+   height: 16.5rem;
+   background-color: white;
+   text-align: center;
+   border-radius:0.3rem;
+   margin: -0.6rem auto;
+ }
+ .mg-t{
+   margin-top: 1.3rem !important;
+ }
+ .input1{
+     width: 80%!important;
+     box-shadow: 2px 1px 3px grey;
+     border: none;
+     border-radius: 0.15rem;
+     height: 1.5rem;
+     margin-top:0.8rem;
+     outline-color: black;
+     padding:4px ;
+     padding-left: 0.8rem;
+     font-weight: 500;
+   }
+   .btn-2{
+     width: 85% !important;
+     height: 1.8rem !important;
+     background-color: lightgreen;
+   }
+   .input2{
+     margin-top: 0.6rem;
+   }
+   span{
+     font-size: 0.55rem;
+     color: grey;
+     position: relative !important;
+     top: -0.2rem;
+   }
+   .c{
+     color: red;
+     top: 0rem !important;
+   }
+   .m-br{display:none;}
+   .d-br{display:block;}
+
+   @media screen and (min-width: 741px) and (max-width:1004px) {
+  .content1{width: 50% ;margin-left: 12%;} 
+  .content2{width: 50% ;margin-right: 15%;} 
+  }
+  @media screen and (min-width: 1005px) {
+    .content1{width: 30% ;margin-left: 18%;} 
+    .content2{width: 30% ;margin-right: 20%;} 
+  }
+
+   @media screen and (max-width:740px){
+     body{overflow-x: hidden;}
+   .container1{flex-direction:column;
+     height: auto;width: 100%;text-align: center;
+   }
+   .content1{width:100%;border:none;margin-left:0;}
+   .f-s{line-height:1.4rem;word-spacing:0.1rem;letter-spacing:0.7px;}
+   .m-br{display:block;}
+   .d-br{display:none;}
+   .content2{width:100%;text-align:center;}
+   .btn-1{width:85%;height:5rem;
+   border-radius:0.5rem; 
+   box-shadow: 0px 3px 5px 1px rgba(2, 2, 2, 0.4);
+     margin-top: 1.5rem;
+   }
+     form{width:85%;margin:0 auto;
+      height: 25rem;
+      text-align: center;
+     border-radius:0.5rem;
+     }
+     .input1{
+     width: 85%!important;
+     border-radius: 0.15rem;
+     height: 2.6rem;
+     margin-top:0.9rem;
+   }
+    .mg-t{
+   margin-top: 2rem !important;
+ }
+  .btn-2{
+     width: 90% !important;
+     height: 2.9rem !important;
+     background-color: lightgreen;
+   }
+   span{font-size: 0.6rem;}
+   }
+   @media screen and (min-width: 530px) and (max-width:740px) {
+    .f-s{font-size:1.3rem;}
+    h2{font-size:2.3rem;}
+  }
+  @media screen and (max-width: 531px){
+    .f-s{font-size:1rem;}
+    h2{font-size:2rem;}
+  }
